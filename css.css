@@ -4,7 +4,7 @@ body {
 }
 
 #menu ul{
-    magin:0;
+    margin:0;
     background-color: #3385ff;
     list-style: none;
 
@@ -25,3 +25,12 @@ body {
 #menu ul li a: hover{
     color:#004d00;
 }
+
+h2 {
+	text-align: center;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
