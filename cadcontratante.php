@@ -5,10 +5,10 @@
 	<meta content = "width = device-width, initial-scale = 1, escala máxima = 1" name = "viewport">
 	<title>Cadastro Contratante PHP Jobs</title>
 	<link href = "css.css" rel = "stylesheet" />
-	<script src="MEU SCRIPT"></script>
 </head>
+
 <body>
-    <form id="cadastro" name="cadastro" method="post">
+    <form action = "contratante.php" id="cadastro" name="cadastro" method="post">
       <table width="625" border="0">
         <tr>
             <td width="69">Nome:</td>
@@ -48,6 +48,7 @@
         </tr>
       </table>
     </form>
+
 </body>
 </html>
 

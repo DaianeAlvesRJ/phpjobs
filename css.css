@@ -1,7 +1,25 @@
-body {
-    margin: 0;
-    
+body { 
+    background-color: #e8eae8; 
+    color: #5d665b; 
+    margin: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    font-size: 15px; 
+    line-height: 180%;
 }
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+    color:#966b72; 
+    font-family:Georgia,"Times New Roman",Times,serif;
+}
+
+p {
+     
+    text-indent: 3em;
+  }
 
 #menu ul{
     margin:0;
@@ -20,17 +38,17 @@ body {
     display: inline-block;
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 #menu ul li a: hover{
     color:#004d00;
 }
 
-h2 {
-	text-align: center;
-}
 
 a:link 
 { 
  text-decoration:none; 
 } 
+
+
