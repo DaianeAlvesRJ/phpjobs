@@ -26,8 +26,7 @@
 <?php
     
     foreach ($jobs as $valor){
-        ?><h2> <a href="visuPerfilContratante.php" target="_self"><?php echo $valor['titulo'];?></a></h2></br><?php
-        ?><?php echo $valor['descricao'] ."<br>"; echo $valor['salario'] ."<br>"; ?> <?php
+        ?><p> <a href="visualizarJob.php" target="_self"><?php echo $valor['titulo'];?></a></p></br> <?php
         
        
    

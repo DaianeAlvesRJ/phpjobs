@@ -1,3 +1,6 @@
+<?php
+    require"data.php";
+?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -7,13 +10,23 @@
 	<link href = "css.css" rel = "stylesheet" />
 </head>
 <body>
-    <?php
-        echo $jobs;
-        ?>
+<?php
+    
+    foreach ($jobs as $valor){
+        ?><h2> <a href="visuPerfilContratante.php" target="_self"><?php echo $valor['titulo'];?></a></h2></br><?php
+        ?><?php echo $valor['descricao'] ."<br>"; echo $valor['salario'] ."<br>"; ?> <?php
         
-        <ul>
-            <a href="index.php" target="_self">VOLTAR</a></li>
-        </ul>
+       
+   
+    }
+?>
+        
+        <tr>
+            <td colspan="2"><p>
+            <input name="voltar" type="submit" id="voltar" value="Voltar" onClick="window.open('index.php')" target="_self"/>
+                
+        </tr>
+        
    
 
 

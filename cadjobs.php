@@ -5,7 +5,6 @@
 	<meta content = "width = device-width, initial-scale = 1, escala máxima = 1" name = "viewport">
 	<title>Cadastrar Jobs</title>
 	<link href = "css.css" rel = "stylesheet" />
-	<script src="MEU SCRIPT"></script>
 </head>
 <body>
     <form id="cadastro" name="cadastro" method="post">

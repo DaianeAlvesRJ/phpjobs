@@ -10,7 +10,7 @@
 <body>
 Visualizar Perfil do Contratante  
         <ul>
-            <a href="index.html" target="_self">VOLTAR</a></li>
+            <a href="index.php" target="_self">VOLTAR</a></li>
         </ul>
    
 

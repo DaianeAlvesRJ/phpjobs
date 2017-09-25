@@ -6,6 +6,8 @@
  $senha= $_REQUEST['senha'];
  $logo= $_REQUEST['logo'];
  
+ $cadastro = array(['nome' =>'', 'descricao' =>'', 'email' =>'','senha' =>'', 'logo' =>'',]);
+
  echo $nome."<br>";
  echo $descricao."<br>";
  echo $email."<br>";
