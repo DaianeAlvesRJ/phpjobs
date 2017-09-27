@@ -1,3 +1,6 @@
+<?php
+    include "menu.php";
+?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -7,6 +10,7 @@
 	<link href = "css.css" rel = "stylesheet" />
 </head>
 <body>
+<br>
     <form id="cadastro" name="cadastro" method="post">
       <table width="625" border="0">
         <tr>

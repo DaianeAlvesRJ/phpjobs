@@ -1,5 +1,6 @@
 <?php
     require"data.php";
+    include "menu.php";
 ?>
 <!doctype html>
 <html lang = "pt-br">
@@ -23,7 +24,7 @@
         
         <tr>
             <td colspan="2"><p>
-            <input name="voltar" type="submit" id="voltar" value="Voltar" onClick="window.open('index.php')" target="_self"/>
+            <input name="voltar" type="submit" id="voltar" value="Voltar" onclick="history.go(-1)" target="_self"/>
                 
         </tr>
         

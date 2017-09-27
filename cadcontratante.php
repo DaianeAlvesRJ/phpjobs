@@ -1,3 +1,6 @@
+<?php
+    include "menu.php";
+?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -8,6 +11,7 @@
 </head>
 
 <body>
+<br>
     <form action = "contratante.php" id="cadastro" name="cadastro" method="post">
       <table width="625" border="0">
         <tr>
@@ -41,7 +45,7 @@
             <td colspan="2"><p>
                 <input name="cadastrar" type="submit" id="cadastrar" value="Concluir meu Cadastro" />
                 <input name="limpar" type="reset" id="limpar" value="Limpar Campos preenchidos" />
-                <input name="voltar" type="submit" id="voltar" value="Voltar" onClick="window.open('index.php')" target="_self"/>
+                <input name="voltar" type="submit" id="voltar" value="Voltar" onclick="history.go(-1)" target="_self"/>
                 
         </tr>
 

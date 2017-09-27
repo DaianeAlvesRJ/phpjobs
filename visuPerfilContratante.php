@@ -1,3 +1,6 @@
+<?php
+    include "menu.php";
+?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
