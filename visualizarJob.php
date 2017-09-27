@@ -12,13 +12,13 @@
 <body>
 <?php
     
-    foreach ($jobs as $valor){
+    $valor=$jobs[$_GET['id']]
         ?><h2> <a href="visuPerfilContratante.php" target="_self"><?php echo $valor['titulo'];?></a></h2></br><?php
         ?><?php echo $valor['descricao'] ."<br>"; echo $valor['salario'] ."<br>"; ?> <?php
         
        
    
-    }
+    
 ?>
         
         <tr>
