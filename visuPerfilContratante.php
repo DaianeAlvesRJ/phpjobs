@@ -1,6 +1,3 @@
-<?php
-    include "menu.php";
-?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -11,6 +8,9 @@
 	<script src="scripts/seu-script.js"></script>
 </head>
 <body>
+<?php 
+       include "menu.php";
+?>
 Visualizar Perfil do Contratante  
         <ul>
             <a href="index.php" target="_self">VOLTAR</a></li>

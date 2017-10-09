@@ -1,6 +1,6 @@
 <?php
     require"data.php";
-    include "menu.php";
+ 
 ?>
 <!doctype html>
 <html lang = "pt-br">
@@ -11,11 +11,16 @@
 	<link href = "css.css" rel = "stylesheet" />
 </head>
 <body>
+<?php 
+       include "menu.php";
+?>
 <?php
     
     $valor=$jobs[$_GET['id']]
-        ?><h2> <a href="visuPerfilContratante.php" target="_self"><?php echo $valor['titulo'];?></a></h2></br><?php
-        ?><?php echo $valor['descricao'] ."<br>"; echo $valor['salario'] ."<br>"; ?> <?php
+        ?><?php echo $valor['titulo'];?></br><?php
+        ?><?php echo $valor['descricao'] ."<br>"; 
+                echo $valor['salario'] ."<br>"; 
+        ?> <?php
         
        
    

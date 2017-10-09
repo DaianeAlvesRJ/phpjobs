@@ -1,6 +1,3 @@
-<?php
-    include "menu.php";
-?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -11,6 +8,9 @@
 </head>
 
 <body>
+<?php
+    include "menu.php";
+?>
 <br>
     <form action = "contratante.php" id="cadastro" name="cadastro" method="post">
       <table width="625" border="0">

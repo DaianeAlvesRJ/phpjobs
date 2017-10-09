@@ -1,6 +1,3 @@
-<?php
-    include "menu.php";
-?>
 <!doctype html>
 <html lang = "pt-br">
 <head>
@@ -10,8 +7,11 @@
 	<link href = "css.css" rel = "stylesheet" />
 </head>
 <body>
+<?php
+    include "menu.php";
+?>
 <br>
-    <form id="cadastro" name="cadastro" method="post">
+    <form action = "job.php" id="cadastro" name="cadastro" method="post">
       <table width="625" border="0">
         <tr>
             <td width="69">Título:</td>
